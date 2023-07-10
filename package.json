@@ -1,0 +1,21 @@
+{
+  "name": "vite-preset-cra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "c@wuz.sh",
+  "license": "MIT",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "demo": "vite demo"
+  },
+  "workspaces": [
+    "demo",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "vite": "^4.3.1"
+  }
+}
